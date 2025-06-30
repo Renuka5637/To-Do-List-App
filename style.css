@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #0f0f0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lis{
+   margin-right: 10px;
+  width:300px;
+  padding-left: 20px;
+  border: #00f7ff 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+box-shadow: 0 0 2px #00f7ff;
+}
+div{
+    width: 400px;
+    margin-top: 3%;
+    background-color: #1f1f2e;
+    padding-right: 40px;
+    text-align: center;
+    border: 1px solid #00f7ff;
+    border-radius: 8px;
+    box-shadow: 0 0 2px #00f7ff;
+}
+
+h1{
+    text-align: center;
+    color: #00f7ff;
+    margin-left: 20px;
+}
+
+input{
+    margin-left:8px;
+    border:#1f1f2e;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: #0f0f0f;
+}
+
+h3{
+    text-align: center;
+    color:  #00f7ff;
+}
+
+li{
+    color:  #00f7ff;
+    margin: 20px;
+}
+
+#btn1{
+    color:  #fff;
+    background-color: #ff2bd3;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.1s;
+    font-weight: bold;
+    box-shadow: 0 0 4px #ff2bd3;
+    margin-left: 8px;
+
+}
+
+#btn1:hover{
+    background-color: #ff4fec;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.delete{
+    background-color: #ff3131;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 9px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: 0.1s;
+}
+
+h1 {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #00f7ff, 0 0 8px #00f7ff;
+  }
+  to {
+    text-shadow: 0 0 20px #00f7ff, 0 0 10px #00f7ff;
+  }
+}
+
+input:hover{
+
+    box-shadow: 0 0 4px #00f7ff;
+}
