@@ -18,3 +18,5 @@ Users can add tasks and delete them as needed.
 🔹Enter a task in the input field
 🔹Click the **Add** button to add the task
 🔹Click the **Delete** icon to remove the task
+
+If you like this project, please ⭐️ star the repo — it really helps and motivates me!
